@@ -12,7 +12,7 @@ namespace StringCalculator
             string[] arr;
 
             if (str.Length == 0)
-                return 0;
+                return 1;
 
             if (str[0] == '/' && str[1] == '/')
             {
